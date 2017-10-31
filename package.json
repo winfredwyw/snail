@@ -1,0 +1,22 @@
+{
+  "name": "snail",
+  "version": "1.0.0",
+  "description": "蜗牛爬虫",
+  "main": "index.js",
+  "scripts": {
+    "go": "node ./src"
+  },
+  "keywords": [
+    "snail"
+  ],
+  "author": "wangyawei",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "phantomjs-prebuilt": "^2.1.15",
+    "selenium-webdriver": "^3.5.0",
+    "superagent": "^3.6.0",
+    "superagent-charset": "^1.2.0",
+    "webdriverio": "^4.8.0"
+  }
+}
